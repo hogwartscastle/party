@@ -5,7 +5,7 @@
 </head>
 <body>
 <img src="images/invitation.png">
-<p>TO: Agent MD</p>
+<p>TO: <b>Agent MD</b></p>
 
 <p>MI6 are hosting a lavish reception at their super-secret HQ in North London. All their top spies are invited
 along with a select list of government officials, foreign diplomats and prominent members of the international
@@ -29,7 +29,7 @@ Password:   BANANA
 
 <p>DRESS CODE: PLEASE COME IN FORMAL EVENING WEAR!</p>
 
-<p>FROM: M.</p>
+<p>FROM: <b>M.</b></p>
 
 <p><a href="guestlist.html">GUESTLIST</a></p>
 </body>
