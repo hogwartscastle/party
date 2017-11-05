@@ -2,7 +2,7 @@ body {
     margin: 100px;
     font-family: "Courier New", Courier, monospace;
     max-width: 80%;
-    background: url("../images/glass_transparent.png") center no-repeat;
+    background: url("/images/glass_transparent.png") center no-repeat;
 }
 
 img {
