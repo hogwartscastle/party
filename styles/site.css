@@ -1,6 +1,7 @@
 body {
     margin: 50px;
     font-family: "Courier New", Courier, monospace;
+    max-width: 80%;
 }
 
 img {
