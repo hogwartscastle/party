@@ -7,7 +7,7 @@ do
    reverse=`echo "$name" | awk '{print tolower($0)}' | rev`
    rm -rf ${reverse}
    mkdir ${reverse}
-   echo "http://mayas-mystery-murder.party/${reverse}"
+   echo "http://mayas-murder-mystery.party/${reverse}"
    cp template.html ${reverse}/index.html
    sed s/XXXXX/${name}/g ${reverse}/index.html > new ; mv new ${reverse}/index.html
    git add .
