@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-declare -a arr=("name1" "name2" "name3")
+declare -a arr=("Maya" "Eleanor" "Kiera" "Amelie" "Tabatha" "Sasha" "Jasmin" "Tillie" "Praniv")
 
-for i in "${arr[@]}"
+for name in "${arr[@]}"
 do
-   name=`echo "$i" | rev`
-   mkdir $name
-   cp index.html $name/index.html
+   reverse=`echo "$name" | awk '{print tolower($0)}' | rev`
+   rm -rf ${reverse}
+   mkdir ${reverse}
+   cp template.html ${reverse}/index.html
+   sed s/XXXXX/${name}/g ${reverse}/index.html > new ; mv new ${reverse}/index.html
    git add .
 done
