@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-declare -a arr=("Maya" "Eleanor" "Kiera" "Amelie" "Tabatha" "Sasha" "Jasmin" "Tillie" "Praniv")
+declare -a arr=("Maya" "Eleanor" "Kiera" "Amelie" "Tabitha" "Sasha" "Jasmin" "Tillie" "Praniv")
 
 for name in "${arr[@]}"
 do
